@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ServiceConfiguration serviceName="ReadBlob" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceConfiguration" osVersion="*">
+  <Role name="WorkerRole1">
+    <Instances count="1" />
+    <ConfigurationSettings>
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="DefaultEndpointsProtocol=https;AccountName=hrclocker;AccountKey=s9gO6plPWeanVpPwOkwHzktQyVyZnHNtKWyG02pJ52jtOW/FEinD8YDYGzjWOfLrYbb9KslNrfOQfytnk+ga2g==" />
+      <Setting name="StorageConnectionString" value="UseDevelopmentStorage=true" />
+    </ConfigurationSettings>
+  </Role>
+</ServiceConfiguration>
