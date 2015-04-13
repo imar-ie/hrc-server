@@ -1,0 +1,7 @@
+﻿Installing assembly 'C:\Users\t00164080\Downloads\IMaR\projects\file watch service\FileWatchingService\FileWatchingService\bin\Debug\FileWatchingService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\t00164080\Downloads\IMaR\projects\file watch service\FileWatchingService\FileWatchingService\bin\Debug\FileWatchingService.InstallLog
+   assemblypath = C:\Users\t00164080\Downloads\IMaR\projects\file watch service\FileWatchingService\FileWatchingService\bin\Debug\FileWatchingService.exe
+Installing service Service1...
+Creating EventLog source Service1 in log Application...
