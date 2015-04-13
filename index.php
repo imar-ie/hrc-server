@@ -48,6 +48,15 @@ $app->add(new \Slim\Middleware\HttpBasicAuthentication([
 
 ]));
 
+$app->get('/', function () use ($app) {
+    
+		$app->render(200,array(
+                'msg' => 'HR Locker demo clocking API server,  Nothing more to see here !',
+                'error' => false
+    ));
+	
+});
+
 
 // api endpoint
 
