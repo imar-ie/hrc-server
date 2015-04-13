@@ -1,0 +1,14 @@
+{
+		"require": {
+					"microsoft/windowsazure": "*",
+				"tuupola/slim-basic-auth": "dev-master",
+				"entomb/slim-json-api": "dev-master"
+							},
+			"repositories": [
+						{
+										"type": "pear",
+													"url": "http://pear.php.net"
+																}
+			],
+					"minimum-stability": "dev"
+}
