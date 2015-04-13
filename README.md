@@ -65,6 +65,8 @@ this is a a json object, at the moment this only contains the the id of the card
 ``type :  1``  
 This is for the device type, or now it does not matter but could be used to between different device types eg NFC reader, phone etc.
 
+** The only device in the devices table at present is ``reader1:toor`` **
+
 ##### Sample CURL request:  
 
 ``curl -X POST -H "Authorization: Basic cmVhZGVyMTp0b29y" -H "Cache-Control: no-cache" -H "Postman-Token: e32a5360-51bf-7102-3159-a9550e191354" -H "Content-Type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW" -F "payload={"cardID" => "007"}" -F "type=1" http://hr-clocker.azurewebsites.net/api/checkin``
