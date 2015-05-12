@@ -1,0 +1,19 @@
+#! /bin/sh
+# /etc/init.d/boot_boot_nfc
+
+case "$1" in
+   start)
+
+     echo "\n________________STARTING BOOT NFC READER_________________\n"
+     sudo chmod +x /etc/init.d/boot_nfc
+     /etc/init.d/boot_nfc &
+     ;;
+  stop)
+     echo "\n -----------------------------------STOOOOOOOOOOOOOOOOOOOP---------------------------\n"
+    ;;
+  *)
+    echo "USAGE"
+    exit 1
+    ;;
+esac
+exit 0 

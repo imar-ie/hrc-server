@@ -1,0 +1,13 @@
+#! /bin/sh
+# /etc/init.d/boot_nfc
+
+
+echo "\n________________STARTING NFC READER_________________\n"
+chmod +x /home/pi/libnfc/libnfc-1.7.1/examples/nfc_reader
+
+while true; do
+ 	/home/pi/libnfc/libnfc-1.7.1/examples/nfc_reader &
+ 	wait
+done
+
+exit 0 
